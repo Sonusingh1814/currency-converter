@@ -1,0 +1,85 @@
+ *
+ {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+
+ }
+ body
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(67, 107, 25);
+ }
+ .container
+ {
+    height: 70vh;
+    width: 60vh;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: aliceblue;
+ }
+ form{
+    margin-top: 30px;
+    height: 50vh;
+    display: grid;
+    grid-gap: 2px;
+ }
+ .flag
+ {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+ .amount
+{
+    padding-top: 10px;
+    
+
+}
+.converted 
+{
+    height: 30px;
+    width: 80%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+/*      from or to side*/
+.fromside{
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    
+}
+.fromside select{
+    border: none;
+    min-height: 30px;
+    border-radius: 1px;
+}
+.fromside img{
+    
+    width: 50px;
+}
+button{
+    height: 40px;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(114, 30, 117);
+    color: white;
+    cursor: pointer;
+}
+ form i 
+ {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+ }
